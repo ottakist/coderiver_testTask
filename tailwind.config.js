@@ -9,6 +9,6 @@ export default {
     },
     extend: {}
   },
-  plugins: [],
+  plugins: ['prettier-plugin-tailwindcss'],
   safelist: ['bg-red-500', 'text-xl']
 }
