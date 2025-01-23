@@ -1,2 +1,3 @@
 import Header from './Header'
-export { Header }
+import PMA from './PMA'
+export { Header, PMA }

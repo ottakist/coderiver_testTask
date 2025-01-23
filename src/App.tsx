@@ -1,14 +1,14 @@
-import { Info } from './components/homepage'
-import { Header } from './components/shared'
+import { Info, Cards } from './components/homepage'
+import { Header, PMA } from './components/shared'
 
 function App() {
   return (
-    <>
+    <main className='relative overflow-hidden'>
       <Header />
       <Info />
-      
-      <section></section>
-    </>
+      <Cards />
+      <PMA />
+    </main>
   )
 }
 

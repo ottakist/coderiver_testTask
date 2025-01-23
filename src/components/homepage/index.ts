@@ -1,2 +1,3 @@
 import Info from './Info'
-export { Info }
+import Cards from './Cards'
+export { Info, Cards }

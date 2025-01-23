@@ -1,9 +1,5 @@
 import React from 'react'
-export interface IconProps {
-  fill: string
-  width: string
-  height: string
-}
+import { IconProps } from './iconTypes'
 
 const Play: React.FC<IconProps> = ({ fill, width, height }) => {
   return (

@@ -1,9 +1,5 @@
 import React from 'react'
-interface IconProps {
-  fill: string
-  width: string
-  height: string
-}
+import { IconProps } from './iconTypes'
 
 const Star: React.FC<IconProps> = ({ fill, width, height }) => {
   return (
