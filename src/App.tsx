@@ -34,6 +34,7 @@ function App() {
           zIndex: -1,
           filter: 'blur(2px)'
         }}
+        className='fade-in'
       >
         <ambientLight intensity={0.5} />
         <Sketch mousePosition={mousePosition} />

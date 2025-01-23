@@ -36,7 +36,7 @@ const Sketch: React.FC<SketchProps> = ({ mousePosition }) => {
 
   const geometry = new THREE.BufferGeometry()
   const vertices: number[] = []
-  const colors: number[] = [] 
+  const colors: number[] = []
   const colorStart = new THREE.Color('#4E6CB5')
   const colorEnd = new THREE.Color('#D38C4E')
   for (let i = 0; i < 100; i++) {
