@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background-image: url('src/assets/Images/Background.png');
+  --background-image: url('/public/Background.png');
   height: 100%;
 }
 
