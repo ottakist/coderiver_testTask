@@ -1,7 +1,7 @@
 import NetflixLogo from '../../assets/Images/Logo.png'
-import SearchIcon from '../../assets/icons/search.svg'
 import UserImage from '../../assets/Images/avatar.png'
 import { formatDate } from '../../utils/formatDate'
+import Search from '../../assets/Icons/Search'
 const Header = () => {
   return (
     <header className='flex w-full flex-row items-center justify-between'>
@@ -25,7 +25,7 @@ const Header = () => {
         id='right-section'
       >
         <button id='search' className='mr-[45px] h-[43px] w-[43px]'>
-          <img src={SearchIcon} alt='search' className='w-full' />
+          <Search width='43px' height='43px' fill='white' />
         </button>
         <div className='h-[74px]' id='user'>
           <img src={UserImage} alt='' />
