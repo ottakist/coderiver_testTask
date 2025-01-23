@@ -25,7 +25,7 @@ const Info = () => {
 
       <div
         id='info'
-        className='mb-[27px] flex flex-row items-center font-inter text-[30px] font-medium uppercase text-white'
+        className='fade-in mb-[27px] flex flex-row items-center font-inter text-[30px] font-medium uppercase text-white'
       >
         <p id='year'>2019</p>
         <div className='mx-4 block h-5 w-[3px] bg-white'></div>
@@ -46,7 +46,7 @@ const Info = () => {
         </p>
       </div>
       <article
-        className='mb-6 font-inter text-[24px] font-[400] text-[#A7A6A6]'
+        className='fade-in mb-6 font-inter text-[24px] font-[400] text-[#A7A6A6]'
         id='description'
       >
         <p>
