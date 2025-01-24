@@ -4,7 +4,7 @@ import Star from '../../assets/Icons/Star.tsx'
 const Rating = ({ rating }: { rating: number }) => {
   const [rate, setRate] = useState(rating)
   return (
-    <div className='mb-[57px] flex w-full max-w-[212px] flex-row justify-between py-[2px]'>
+    <div className='flex w-full max-w-[212px] flex-row justify-between py-[2px]'>
       {Array.from({ length: 5 }, (_, index) => (
         <i
           className='w-full'

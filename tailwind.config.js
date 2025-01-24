@@ -7,6 +7,14 @@ export default {
       inter: ['Inter', 'sans-serif'],
       kyiv: ['KyivType', 'serif']
     },
+    screens: {
+      tablet: '700px',
+      // => @media (min-width: 700px) { ... }
+      laptop: '1024px',
+      // => @media (min-width: 1024px) { ... }
+      desktop: '1280px'
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {}
   },
   plugins: ['prettier-plugin-tailwindcss'],

@@ -22,7 +22,7 @@ function App() {
   }, [])
 
   return (
-    <main className='relative overflow-hidden'>
+    <main className='scrollbar relative flex h-screen flex-col justify-between overflow-x-hidden py-[1%]'>
       <Canvas
         camera={{ position: [0, 0, 2], fov: 70 }}
         style={{
@@ -36,7 +36,6 @@ function App() {
         }}
         className='fade-in'
       >
-        <ambientLight intensity={0.5} />
         <Sketch mousePosition={mousePosition} />
       </Canvas>
       <Header />
