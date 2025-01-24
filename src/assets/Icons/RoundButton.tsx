@@ -27,8 +27,7 @@ const RoundButton: React.FC<CustomIconProps> = ({
       <svg
         viewBox={`0 0 ${width} ${height}`}
         xmlns='http://www.w3.org/2000/svg'
-        width={width}
-        height={height}
+        height={`${height}px`}
         style={{
           transform: `rotate(${rotation}deg) scale(${scale})`,
           transition: 'transform 0.3s, fill 0.3s',

@@ -7,27 +7,27 @@ import Reactangle10 from '../../assets/Images/MoviePreviews/Rectangle 10.png'
 import Reactangle11 from '../../assets/Images/MoviePreviews/Rectangle 11.png'
 const Cards = () => {
   return (
-    <section className='ml-[86px] mt-[54px] max-w-[910px]'>
+    <section className='ml-[86px] max-w-[910px]'>
       <div
         id='movies_card_header'
         className='flex items-center justify-between'
       >
-        <h2 className='font-inter text-[22px] font-[400] leading-[144%] text-white'>
+        <h2 className='font-inter text-[22px] font-[800] leading-[144%] text-white'>
           Popular this week
         </h2>
         <div className='flex w-[103px] justify-between'>
           <RoundButton
             fill='white'
-            width='38px'
-            height='38px'
+            width={38}
+            height={38}
             scale={1}
             rotation={0}
           />
 
           <RoundButton
             fill='#A7A6A6'
-            width='38px'
-            height='38px'
+            width={38}
+            height={38}
             scale={1}
             rotation={180}
           />

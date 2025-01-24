@@ -4,7 +4,7 @@ import Play from '../../assets/Icons/Play'
 
 const Info = () => {
   return (
-    <section className='ml-[86px] mt-[115px] h-auto max-w-[864px]'>
+    <section className='ml-[86px] h-auto max-w-[864px]'>
       <div
         className='mb-[27px] flex flex-row font-inter text-[32px] font-medium leading-[28.8px] text-white'
         id='tags'
@@ -57,7 +57,7 @@ const Info = () => {
       </article>
 
       <Rating rating={3} />
-      <div className='flex max-w-[593px] flex-row justify-between'>
+      <div className='tablet:flex-row flex max-w-[593px] flex-col justify-between'>
         <Button text='STREAM NOW' Icon={Play} color='#D40D1F' border={null} />
         <Button text='ALL EPISODES' Icon={null} color={null} border='white' />
       </div>

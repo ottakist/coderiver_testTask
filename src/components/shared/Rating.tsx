@@ -15,8 +15,8 @@ const Rating = ({ rating }: { rating: number }) => {
           <Star
             key={index}
             fill={index < rate ? '#FFEA2B' : 'none'}
-            width='32px'
-            height='32px'
+            width={32}
+            height={32}
           />
         </i>
       ))}

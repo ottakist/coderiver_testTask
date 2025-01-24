@@ -5,10 +5,7 @@ import Search from '../../assets/Icons/Search'
 const Header = () => {
   return (
     <header className='flex w-full flex-row items-center justify-between'>
-      <div
-        id='left-section'
-        className='ml-[86px] flex flex-row items-center pt-[70px]'
-      >
+      <div id='left-section' className='ml-[86px] flex flex-row items-center'>
         <a href='/'>
           <img src={NetflixLogo} alt='NetflixLogo' className='h-12 w-auto' />
         </a>
@@ -20,12 +17,9 @@ const Header = () => {
           {formatDate(new Date())}
         </div>
       </div>
-      <div
-        className='mx-10 flex flex-row items-center pt-[40px]'
-        id='right-section'
-      >
+      <div className='mx-10 flex flex-row items-center' id='right-section'>
         <button id='search' className='mr-[45px] h-[43px] w-[43px]'>
-          <Search width='43px' height='43px' fill='white' />
+          <Search width={43} height={43} fill='white' />
         </button>
         <div className='h-[74px]' id='user'>
           <img src={UserImage} alt='' />
