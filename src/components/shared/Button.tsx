@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({ text, Icon, color, border }) => {
     >
       {text}
       <div className='ml-[12px]'>
-        {Icon && <Icon fill='white' width='32px' height='32px' />}
+        {Icon && <Icon fill='white' width={32} height={32} />}
       </div>
     </button>
   )
